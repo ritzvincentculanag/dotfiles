@@ -1,0 +1,24 @@
+{
+    "editor.fontSize": 16,
+    "editor.lineHeight": 1.5,
+    "editor.fontFamily": "IBM Plex Mono",
+    "editor.fontWeight": "500",
+    "editor.minimap.enabled": false,
+
+    "debug.console.fontFamily": "IBM Plex Mono",
+    "debug.console.fontSize": 16,
+
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "vscode-icons",
+    
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    }
+}
