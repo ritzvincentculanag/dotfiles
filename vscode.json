@@ -4,12 +4,19 @@
     "editor.fontFamily": "IBM Plex Mono",
     "editor.fontWeight": "500",
     "editor.minimap.enabled": false,
+    "editor.smoothScrolling": true, 
+    "editor.cursorSmoothCaretAnimation": "on",
 
     "debug.console.fontFamily": "IBM Plex Mono",
     "debug.console.fontSize": 16,
 
     "workbench.startupEditor": "none",
     "workbench.iconTheme": "vscode-icons",
+    "workbench.statusBar.visible": false,
+    "workbench.sideBar.location": "right",
+    "workbench.editor.showTabs": "none",
+
+    "window.menuBarVisibility": "toggle",
     
     "[dart]": {
         "editor.formatOnSave": true,
@@ -20,5 +27,5 @@
         "editor.selectionHighlight": false,
         "editor.tabCompletion": "onlySnippets",
         "editor.wordBasedSuggestions": "off"
-    }
+    },
 }
