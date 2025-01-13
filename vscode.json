@@ -1,19 +1,19 @@
 {
-  "editor.fontSize": 16,
+  "editor.fontSize": 15,
   "editor.lineHeight": 1.5,
-  "editor.fontFamily": "IBM Plex Mono",
-  "editor.fontWeight": "500",
+  "editor.fontFamily": "JetBrains Mono",
   "editor.minimap.enabled": false,
   "editor.smoothScrolling": true,
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.matchBrackets": "never",
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
 
   "debug.console.fontFamily": "IBM Plex Mono",
-  "debug.console.fontSize": 16,
+  "debug.console.fontSize": 15,
 
   "liveServer.settings.donotVerifyTags": true,
+
+  "php.debug.executablePath": "/home/arvee/.config/herd-lite/bin/php",
+  "php.executablePath": "/home/arvee/.config/herd-lite/bin/php",
 
   "workbench.startupEditor": "none",
   "workbench.iconTheme": "vscode-icons",
@@ -31,5 +31,11 @@
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": "off",
     "editor.defaultFormatter": "Dart-Code.dart-code"
+  },
+
+  "[php]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80]
   }
 }
