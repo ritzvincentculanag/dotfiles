@@ -1,14 +1,17 @@
 {
   "editor.fontSize": 15,
-  "editor.lineHeight": 1.5,
-  "editor.fontFamily": "JetBrains Mono",
+  "editor.lineHeight": 1.8,
+  "editor.fontFamily": "MonoLisa",
   "editor.minimap.enabled": false,
   "editor.smoothScrolling": true,
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.matchBrackets": "never",
+  "editor.formatOnType": true,
+  "editor.wordBasedSuggestions": "off",
 
-  "debug.console.fontFamily": "IBM Plex Mono",
+  "debug.console.fontFamily": "MonoLisa",
   "debug.console.fontSize": 15,
+  "debug.console.lineHeight": 1.8,
 
   "liveServer.settings.donotVerifyTags": true,
 
@@ -20,6 +23,8 @@
   "workbench.sideBar.location": "right",
   "workbench.editor.showTabs": "single",
   "workbench.colorTheme": "Dracula Theme",
+  "workbench.activityBar.location": "hidden",
+  "workbench.statusBar.visible": false,
 
   "window.menuBarVisibility": "toggle",
 
@@ -37,5 +42,33 @@
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
     "editor.rulers": [80]
+  },
+
+  "[python]": {
+    "editor.rulers": [80],
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.defaultColorDecorators": "always",
+    "gitlens.codeLens.symbolScopes": [
+      "!Module"
+    ],
+  },
+
+  "[css]": {
+    "editor.suggest.insertMode": "replace",
+    "editor.rulers": [80],
+    "editor.tabSize": 2,
+  },
+
+  "[html]": {
+    "editor.suggest.insertMode": "replace",
+    "editor.rulers": [80],
+    "editor.tabSize": 2,
+  },
+
+  "[javascript]": {
+    "editor.maxTokenizationLineLength": 2500,
+    "editor.suggest.insertMode": "replace",
+    "editor.rulers": [80],
+    "editor.tabSize": 2,
   }
 }
